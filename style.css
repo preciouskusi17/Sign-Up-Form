@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    font: sans-serif;
+}
+
+body{margin: 0px;}
+
+.container{
+    width: 100vw;
+    display: flex;
+    height: 100vh;
+}
+
+
+
+.content{
+    width: 65vw;
+    min-width: 500px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(200,200,200, 0.2);
+
+}
+.pic{
+    width: 35vw;
+    min-width: 300px;
+    background: url(./img/bkg_img.avif);
+    background-size: cover;
+}
+
+.section1, .section3{
+    height: 30vh;
+    font-size: 18px;
+    box-sizing: border-box;   
+    padding: 2rem 0rem 0rem 3rem;
+}
+
+.section2{
+    height: 40vh;
+    background-color: white;
+    border-bottom: 5px solid #ddd;
+    padding-left: 3rem;
+}
+
+.section1>div{
+    font-weight: bold;
+    max-width: 600px ;  
+}
+h2{margin-bottom: 0px;}
+form{
+    display: flex;
+    gap: 4rem;
+}
+
+label{
+    display: block;
+    text-transform: uppercase;
+}
+
+input{
+    border:solid 1px #E5E7EB;
+    display: inline-block;
+    padding: .3rem;
+    max-width: 250px;
+}
+
+button{
+    padding: .8rem 2rem;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #596D48;
+    color: white;
+    border-radius: .5rem;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
