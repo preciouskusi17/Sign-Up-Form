@@ -35,7 +35,7 @@
                     <div>
                         <p>
                             <label for="first_name">Fisrt Name</label>
-                            <input type="text" name="first_name" id="first_name" pattern="[a-zA-Z]{3,15}" placeholder="Abigail" title="Only letters" required >
+                            <input type="text" name="first_name" id="first_name" pattern="[a-zA-Z]{3,}" placeholder="Abigail" title="Only letters" required >
                         </p>
                         <p>
                             <label for="email">Email</label>
@@ -43,8 +43,8 @@
                         </p>
                         <p>
                             <label for="password"> Password</label>
-                            <input type="password" name="password" id="password" class="password1" required minlength="8">
-                         <div class="div" style="color: red;font-size: smaller; margin-top: -18px;"></div>
+                            <input type="password" name="password" id="password" class="password1" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Password should have at least 1 lower case, 1 upper case, and 1 number">
+                         <div class="div" style="color: red;font-size: small; margin-top: -18px;"></div>
                          </p>
                         
                     </div>
@@ -60,7 +60,7 @@
                         </p>
                         <p>
                             <label for="confirmPassword">Confirm Password</label>
-                            <input type="password" name="confirmPassword"  id="confirmPassword" class="password2" required minlength="8" >
+                            <input type="password" name="confirmPassword"  id="confirmPassword" class="password2" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Password should have at least 1 lower case, 1 upper case, and 1 number" >
                         
                         </p>
                     </div>

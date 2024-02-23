@@ -76,6 +76,7 @@ input:focus{
     outline: none;
     border: solid 1px rgb(0, 0, 255, 0.5);
     box-shadow: 0px 0px 6px 1px blue;
+    outline: none
 }
 
 .pic{
@@ -118,7 +119,7 @@ img{
 
 [type="password"]:invalid{outline: none; border: solid red 2px;}
 
-input:valid{outline: none; border: solid green 3px;}
+input:valid{ border: solid green 3px;}
 
 
 
